@@ -1,0 +1,8 @@
+version: '2'
+services:
+  myproject:
+    build: ./
+    container_name: CVE-2021-41773-RCE
+    restart: always
+    ports:
+      - "8080:80"
